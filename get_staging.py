@@ -3,6 +3,8 @@ import time
 import mysql.connector as mysql
 from mysql.connector import Error
 import csv
+#Import dependencies
+from subprocess import call
 
 productList = {
     "xperience" : {
@@ -109,3 +111,15 @@ with open('staging.csv', mode='w') as csv_file:
         percentage = str(round(percentage,2)) + "%"
         writer.writerow({'Id': num, 'Name': productList[x]['productName'], 'Total': testCases, 'Automated': automated, 'Percentage': percentage})
         print(num, "record inserted\n\n")
+
+#Commit Message
+commit_message = "Adding sanity file"
+
+#Stage the file 
+call('git add .', shell = True)
+
+# Add your commit
+call('git commit -m "'+ commit_message +'"', shell = True)
+
+#Push the new or update files
+call('git push origin master', shell = True)

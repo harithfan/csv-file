@@ -1,2 +1,6 @@
 # Byte-compiled / optimized / DLL files
 get_sanity.py
+get_staging.py
+testrail.pyc
+testrailAccount.py
+testrailAccount.pyc

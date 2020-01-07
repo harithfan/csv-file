@@ -3,6 +3,8 @@ import time
 import mysql.connector as mysql
 from mysql.connector import Error
 import csv
+#Import dependencies
+from subprocess import call
 
 productList = {
   "28": "Airport Transfer",
@@ -72,76 +74,14 @@ with open('sanity.csv', mode='w') as csv_file:
         writer.writerow({'Id': num, 'Name': productList[x], 'Total': len(cases), 'Automated': automated, 'Percentage': percentage})
         print(num, "record inserted\n\n")
 
-# try:
-#     query = "SELECT id,product_name AS product_name,\
-#              automated,\
-#              total_test,\
-#              concat(round((automated/total_test * 100),2), '%') as percentage\
-#       FROM `tblSanity`\
-#       GROUP BY id\
-#       ORDER BY percentage DESC";
-#     cursor = db.cursor()
-#     cursor.execute(query)
-#     records = cursor.fetchall()
-#     print("Total number of rows is: ", cursor.rowcount)
-#     print("\nPrinting each laptop record")
-    
-#     # Write to CSV
-#     with open('sanity.csv', mode='w') as csv_file:
-#         fieldnames = ['Id', 'Name', 'Total', 'Automated','Percentage']
-#         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-#         writer.writeheader()
-#         for row in records:
-#             writer.writerow({'Id': row[0], 'Name': row[1], 'Total': row[2], 'Automated': row[3], 'Percentage': row[4]})
-# except Error as e:
-#     print("Error reading data from MySQL table", e)
-# finally:
-#     if (db.is_connected()):
-#         db.close()
-#         cursor.close()
-#         print("MySQL connection is closed")
+#Commit Message
+commit_message = "Adding sanity file"
 
+#Stage the file 
+call('git add .', shell = True)
 
+# Add your commit
+call('git commit -m "'+ commit_message +'"', shell = True)
 
-# for x in productList:
-#     cases = client.send_get("get_cases/20&suite_id="+x)
-#     i=0
-#     automated=0
-#     while i<len(cases):
-#         if (((cases[i]['type_id']==3) and (cases[i]['custom_automation_type']==1)) or (cases[i]['custom_automation_type']==4)):
-#             automated+=1
-#         i+=1
-#     query = "INSERT INTO " + tbl + " (product_name, total_test, automated) VALUES (%s, %s, %s)"
-#     values = (productList[x], len(cases), automated)
-#     cursor.execute(query, values)
-#     db.commit()
-#     print(cursor.rowcount, "record inserted\n\n")
-
-# try:
-#     query = "SELECT id,product_name AS product_name,\
-#              automated,\
-#              total_test,\
-#              concat(round((automated/total_test * 100),2), '%') as percentage\
-#       FROM `tblSanity`\
-#       GROUP BY id\
-#       ORDER BY percentage DESC";
-#     cursor = db.cursor()
-#     cursor.execute(query)
-#     records = cursor.fetchall()
-#     print("Total number of rows is: ", cursor.rowcount)
-#     print("\nPrinting each laptop record")
-    
-#     # Write to CSV
-#     with open('sanity.csv', mode='w') as csv_file:
-#         fieldnames = ['Id', 'Name', 'Total', 'Automated','Percentage']
-#         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-#         writer.writeheader()
-#         for row in records:
-#             writer.writerow({'Id': row[0], 'Name': row[1], 'Total': row[2], 'Automated': row[3], 'Percentage': row[4]})
-# except Error as e:
-#     print("Error reading data from MySQL table", e)
-# finally:
-#     if (db.is_connected()):
-#         db.close()
-#         cursor.close()
-#         print("MySQL connection is closed")
+#Push the new or update files
+call('git push origin master', shell = True)

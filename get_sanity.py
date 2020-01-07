@@ -13,44 +13,22 @@ productList = {
   "31": "Cinema",
   "25": "Connectivity",
   "52": "Eats",
-#   "32": "Ebill",
-#   "21": "Flight",
-#   "22": "Hotel",
-#   "851": "Insurance",
-#   "782": "Ipi",
-#   "1304": "Loyalti",
-#   "191": "MyBooking",
-#   "33": "Paylater",
-#   "29": "Payment",
-#   "23": "Train",
-#   "27": "Trip",
-#   "34": "Uangku",
-#   "30": "User",
-#   "862": "Vacation",
-#   "194": "CarRental",  
+  "32": "Ebill",
+  "21": "Flight",
+  "22": "Hotel",
+  "851": "Insurance",
+  "782": "Ipi",
+  "1304": "Loyalti",
+  "191": "MyBooking",
+  "33": "Paylater",
+  "29": "Payment",
+  "23": "Train",
+  "27": "Trip",
+  "34": "Uangku",
+  "30": "User",
+  "862": "Vacation",
+  "194": "CarRental",  
 }
-
-tbl = "tblSanity"
-
-# db = mysql.connect(
-#     host = "localhost",
-#     user = "root",
-#     passwd = "tvlk",
-#     database = "dashboard",
-#     port='3306'
-# )
-
-# cursor = db.cursor()
-# deleteTbl = "DROP TABLE "+ tbl;
-# cursor.execute(deleteTbl)
-
-# createTbl = "CREATE TABLE "+ tbl +" ( \
-#         id int(10) NOT NULL AUTO_INCREMENT, \
-#         product_name varchar(300), \
-#         total_test int(5), \
-#         automated int(5), \
-#         PRIMARY KEY(id))"
-# cursor.execute(createTbl)
 
 # Write to CSV
 with open('sanity.csv', mode='w') as csv_file:

@@ -1,7 +1,22 @@
 Id,Name,Total,Automated,Percentage
-1,Connectivity,16,0,0.0%
-2,Experience,31,14,45.16%
-3,Cinema,19,10,52.63%
-4,Airport Transfer,80,0,0.0%
-5,Bus,237,0,0.0%
-6,Eats,23,0,0.0%
+1,Loyalti,21,0,0.0%
+2,Connectivity,16,0,0.0%
+3,Experience,31,14,45.16%
+4,Trip,19,0,0.0%
+5,Flight,142,0,0.0%
+6,Hotel,108,0,0.0%
+7,Train,32,0,0.0%
+8,Paylater,49,0,0.0%
+9,Ebill,105,0,0.0%
+10,Cinema,19,10,52.63%
+11,User,181,0,0.0%
+12,Airport Transfer,80,0,0.0%
+13,Payment,245,0,0.0%
+14,Bus,237,0,0.0%
+15,Eats,23,0,0.0%
+16,Vacation,36,0,0.0%
+17,MyBooking,32,0,0.0%
+18,CarRental,19,0,0.0%
+19,Ipi,15,0,0.0%
+20,Uangku,56,0,0.0%
+21,Insurance,32,0,0.0%

@@ -1,14 +1,14 @@
 Id,Name,Total,Automated,Percentage
 1,Loyalti,21,0,0.0%
 2,Connectivity,16,0,0.0%
-3,Experience,31,15,48.39%
+3,Xperience,31,15,48.39%
 4,Trip,19,0,0.0%
 5,Flight,142,0,0.0%
 6,Hotel,108,0,0.0%
 7,Train,32,0,0.0%
 8,Paylater,49,0,0.0%
 9,Ebill,105,0,0.0%
-10,Cinema,19,10,52.63%
+10,Movies,19,10,52.63%
 11,User,181,0,0.0%
 12,Airport Transfer,80,0,0.0%
 13,Payment,245,0,0.0%

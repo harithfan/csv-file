@@ -1,22 +1,26 @@
 Id,Name,Total,Automated,Percentage
 1,Loyalti,44,0,0.0%
-2,Connectivity,16,0,0.0%
-3,Xperience,35,22,62.86%
-4,Trip,19,0,0.0%
-5,Flight,146,0,0.0%
-6,Hotel,47,0,0.0%
-7,Train,33,0,0.0%
-8,Paylater,15,3,20.0%
-9,Ebill,66,40,60.61%
-10,Movies,19,10,52.63%
-11,User,97,38,39.18%
-12,Airport Transfer,55,0,0.0%
-13,Payment,245,0,0.0%
-14,Bus,18,0,0.0%
-15,Eats,24,0,0.0%
-16,Vacation,10,0,0.0%
-17,MyBooking,11,0,0.0%
-18,CarRental,21,0,0.0%
-19,Ipi,30,0,0.0%
-20,Uangku,33,31,93.94%
-21,Insurance,41,0,0.0%
+2,Vacation,10,0,0.0%
+3,CarRental,21,0,0.0%
+4,MyBooking,11,1,9.09%
+5,Eats,24,19,79.17%
+6,Connectivity,16,10,62.5%
+7,Xperience,35,21,60.0%
+8,Trip,19,0,0.0%
+9,Flight,146,9,6.16%
+10,Hotel,47,7,14.89%
+11,Train,33,2,6.06%
+12,Universal Search,13,0,0.0%
+13,Airport Transfer,55,0,0.0%
+14,Payment,245,62,25.31%
+15,Cobrand,15,0,0.0%
+16,Paylater Card,5,3,60.0%
+17,Insurance,41,0,0.0%
+18,Ipi,30,0,0.0%
+19,Paylater,15,3,20.0%
+20,Ebill,66,40,60.61%
+21,Movies,19,10,52.63%
+22,User,97,38,39.18%
+23,Bus,18,0,0.0%
+24,Uangku,33,31,93.94%
+25,Visa,25,0,0.0%

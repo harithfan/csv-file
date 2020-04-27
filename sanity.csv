@@ -1,2 +1,26 @@
 Id,Name,Total Sanity Test Case,Automated,Covered,Percentage
-1,Bus,16,0,0,0.0%
+1,Loyalti,44,0,0,0.0%
+2,Vacation,10,0,0,0.0%
+3,CarRental,21,0,0,0.0%
+4,MyBooking,11,0,1,0.0%
+5,Eats,24,18,19,105.0%
+6,Connectivity,16,10,10,100.0%
+7,Xperience,35,22,21,95.0%
+8,Trip,19,0,0,0.0%
+9,Flight,146,9,9,100.0%
+10,Hotel,47,7,7,100.0%
+11,Train,33,2,2,100.0%
+12,Universal Search,13,0,0,0.0%
+13,Airport Transfer,55,0,0,0.0%
+14,Payment,245,62,62,100.0%
+15,Cobrand,15,0,0,0.0%
+16,Paylater Card,5,3,3,100.0%
+17,Insurance,41,13,13,100.0%
+18,Ipi,30,0,0,0.0%
+19,Paylater,15,3,3,100.0%
+20,Ebill,66,40,40,100.0%
+21,Movies,19,10,10,100.0%
+22,User,97,22,38,172.0%
+23,Bus,16,0,0,0.0%
+24,Uangku,33,3,19,633.0%
+25,Visa,25,0,0,0.0%

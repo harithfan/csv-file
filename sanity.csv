@@ -1,4 +1,4 @@
-Id,Name,Total Sanity Test Case,Automated,Covered,Percentage
+Id,Name,Total Sanity Test Case,Automated,Covered(Automatable),Percentage
 1,Loyalti,44,0,20,0.0%
 2,Vacation,10,0,10,0.0%
 3,CarRental,21,0,0,0.0%

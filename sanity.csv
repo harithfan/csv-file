@@ -10,7 +10,7 @@ Id,Name,Total Sanity Test Case,Automated,Covered,Percentage
 9,Flight,146,9,9,100.0%
 10,Hotel,47,7,7,100.0%
 11,Train,33,2,2,100.0%
-12,Universal Search,13,0,0,0.0%
+12,Universal Search,13,0,6,0.0%
 13,Airport Transfer,55,0,0,0.0%
 14,Payment,245,62,62,100.0%
 15,Cobrand,15,0,0,0.0%

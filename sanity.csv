@@ -5,7 +5,7 @@ Id,Name,Total Sanity Test Case,Automated,Covered,Percentage
 4,MyBooking,11,0,1,0.0%
 5,Eats,24,18,19,94.0%
 6,Connectivity,16,10,10,100.0%
-7,Xperience,35,22,21,104.0%
+7,Xperience,35,20,21,95.0%
 8,Trip,19,0,0,0.0%
 9,Flight,146,9,9,100.0%
 10,Hotel,47,7,7,100.0%

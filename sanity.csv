@@ -1,16 +1,16 @@
 Id,Name,Total Sanity Test Case,Automated,Percentage
-1,Loyalti,44,20,45.0%
-2,Vacation,10,10,100.0%
+1,Loyalti,44,0,0.0%
+2,Vacation,10,0,0.0%
 3,CarRental,21,0,0.0%
-4,MyBooking,11,1,9.0%
-5,Eats,24,19,79.0%
+4,MyBooking,11,0,0.0%
+5,Eats,24,18,75.0%
 6,Connectivity,16,10,62.0%
-7,Xperience,35,21,60.0%
+7,Xperience,35,20,57.0%
 8,Trip,19,0,0.0%
 9,Flight,146,9,6.0%
 10,Hotel,47,7,14.0%
 11,Train,29,2,6.0%
-12,Universal Search,13,6,46.0%
+12,Universal Search,13,0,0.0%
 13,Airport Transfer,55,0,0.0%
 14,Payment,245,62,25.0%
 15,Cobrand,15,0,0.0%
@@ -20,7 +20,7 @@ Id,Name,Total Sanity Test Case,Automated,Percentage
 19,Paylater,15,3,20.0%
 20,Ebill,66,40,60.0%
 21,Movies,19,10,52.0%
-22,User,97,38,39.0%
-23,Bus,17,10,58.0%
-24,Uangku,33,19,57.0%
+22,User,97,22,22.0%
+23,Bus,17,0,0.0%
+24,Uangku,33,3,9.0%
 25,Visa,25,0,0.0%

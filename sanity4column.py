@@ -66,7 +66,7 @@ with open('sanity.csv', mode='w') as csv_file:
         if ((coverage==0) and (automated==0) or ((coverage==1) and (automated==0))):
             percentage = automated
         else:
-            percentage = 100 * (automated)/len(cases)
+            percentage = 100 * (automated)/len(coverage)
             percentage = str(round(percentage,2)) + "%"
         writer.writerow({'Id': num, 'Name': productList[x], 'Total Sanity Test Case': len(cases), 'Automated': automated, 'Covered(Automatable)': coverage, 'Percentage': percentage})
         # writer.writerow({'Id': num, 'Name': productList[x], 'Total Sanity Test Case': len(cases), 'Automated': automated, 'Percentage': percentage})

@@ -1,7 +1,7 @@
 Id,Name,Total Sanity Test Case,Automated,Percentage
 1,Loyalti,44,0,0.0%
 2,Vacation,10,0,0.0%
-3,CarRental,20,0,0.0%
+3,CarRental,20,1,5.0%
 4,MyBooking,11,0,0.0%
 5,Payment,107,0,0.0%
 6,Eats,25,16,64.0%

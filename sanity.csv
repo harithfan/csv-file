@@ -1,5 +1,5 @@
 Id,Name,Total Sanity Test Case,Automated,Percentage
-1,Loyalti,44,0,0.0%
+1,Loyalti,42,0,0.0%
 2,Vacation,10,0,0.0%
 3,CarRental,20,1,5.0%
 4,MyBooking,11,0,0.0%
@@ -23,5 +23,5 @@ Id,Name,Total Sanity Test Case,Automated,Percentage
 22,Movies,19,10,52.0%
 23,User,136,22,16.0%
 24,Bus,15,15,100.0%
-25,Uangku,34,3,8.0%
+25,Uangku,20,2,10.0%
 26,Visa,25,0,0.0%

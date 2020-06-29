@@ -1,6 +1,8 @@
 # Byte-compiled 
 get_sanity.py
 get_staging.py
+sanity3column.py
+sanity4column.py
 testrail.pyc
 testrailAccount.py
 testrailAccount.pyc
